@@ -1,0 +1,16 @@
+<p>product-details works!</p>
+
+<table>
+    <thead>
+        <td>S.No</td>
+        <td>Category</td>
+        <td>Model</td>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of prodDetails">
+            <td>{{ product.id }}</td>
+            <td>{{ product.category }}</td>
+            <td>{{ product.model }}</td>
+        </tr>
+    </tbody>
+</table>

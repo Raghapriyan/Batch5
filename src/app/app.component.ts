@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'shopping-kart';
+  title = 'shopping-kart, is a famous online app';
+
+  showLogin = false;
+
 }
